@@ -1,3 +1,5 @@
+<p align="center"><img src="banner.jpg" alt="eloquage — Laravel packages, crafted in the open"></p>
+
 <div align="center">
 
 # Eloquage
@@ -35,11 +37,41 @@ PIE-compatible native extension (`*-ext`) built with
 | Package | What it does |
 |---|---|
 | [`docker-php`](https://github.com/eloquage/docker-php) | Docker Engine API client for Laravel with a Livewire management UI |
-| [`laravel-cloudflare`](https://github.com/eloquage/laravel-cloudflare) | Run Laravel natively on the Cloudflare Developer Platform |
-| [`cloudflare-filament`](https://github.com/eloquage/cloudflare-filament) | Filament v5 dashboard for the Cloudflare ecosystem |
 | [`filament-horizon`](https://github.com/eloquage/filament-horizon) | Horizon integration for Filament |
-| [`laravel-mcp-fetch`](https://github.com/eloquage/laravel-mcp-fetch) · [`laravel-mcp-ops`](https://github.com/eloquage/laravel-mcp-ops) | MCP servers: fetching & ops health |
-| [`laravel-google-workspace`](https://github.com/eloquage/laravel-google-workspace) · [`laravel-notebooklm`](https://github.com/eloquage/laravel-notebooklm) | Google integrations |
+
+## Laravel packages
+
+### Health checks
+
+| Package | What it does |
+|---|---|
+| [`healthcheck-ai`](https://github.com/eloquage/healthcheck-ai) | AI service connectivity health check for Laravel |
+| [`healthcheck-mail`](https://github.com/eloquage/healthcheck-mail) | Mail connectivity health check for Laravel |
+| [`healthcheck-mercure`](https://github.com/eloquage/healthcheck-mercure) | Mercure connectivity health check for Laravel |
+| [`healthcheck-migration`](https://github.com/eloquage/healthcheck-migration) | Pending database migrations health check for Laravel |
+| [`healthcheck-octane`](https://github.com/eloquage/healthcheck-octane) | Laravel Octane server status health check |
+| [`healthcheck-operations`](https://github.com/eloquage/healthcheck-operations) | Pending one-time operations health check for Laravel |
+| [`healthcheck-pgvector`](https://github.com/eloquage/healthcheck-pgvector) | PostgreSQL pgvector connectivity health check for Laravel |
+| [`healthcheck-redis`](https://github.com/eloquage/healthcheck-redis) | Redis extension and connectivity health check for Laravel |
+| [`healthcheck-storage`](https://github.com/eloquage/healthcheck-storage) | Laravel storage disk writability health check |
+| [`healthcheck-stripe`](https://github.com/eloquage/healthcheck-stripe) | Stripe API connectivity health check for Laravel |
+| [`healthcheck-typesense`](https://github.com/eloquage/healthcheck-typesense) | Typesense connectivity health check for Laravel |
+
+### Laravel integrations
+
+| Package | What it does |
+|---|---|
+| [`laravel-content-sentinel`](https://github.com/eloquage/laravel-content-sentinel) | A configurable content safeguard and moderation pipeline for Laravel |
+| [`laravel-edge-clear`](https://github.com/eloquage/laravel-edge-clear) | Standalone Cloudflare cache purging for Laravel |
+| [`laravel-hybrid-search`](https://github.com/eloquage/laravel-hybrid-search) | Hybrid lexical and vector search for Laravel |
+| [`laravel-llm-router`](https://github.com/eloquage/laravel-llm-router) | Route Laravel AI requests across language model providers |
+| [`laravel-places-scout`](https://github.com/eloquage/laravel-places-scout) | A fluent Laravel package for the Google Places API with strongly typed DTOs |
+| [`laravel-prompt-registry`](https://github.com/eloquage/laravel-prompt-registry) | Dynamic AI agent prompt registration and retrieval for Laravel |
+| [`laravel-semantic-deduper`](https://github.com/eloquage/laravel-semantic-deduper) | Semantic duplicate detection for Laravel applications |
+| [`laravel-social-caster`](https://github.com/eloquage/laravel-social-caster) | Publish social media content from Laravel |
+| [`laravel-vault-cipher`](https://github.com/eloquage/laravel-vault-cipher) | Encrypt and decrypt application secrets with Laravel |
+| [`laravel-vector-schema`](https://github.com/eloquage/laravel-vector-schema) | Define and validate vector schemas for Laravel search |
+| [`laravel-wayfinder-forge`](https://github.com/eloquage/laravel-wayfinder-forge) | Generate strongly typed frontend SDKs from Laravel routes |
 
 ## License
 
